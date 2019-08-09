@@ -18,7 +18,7 @@ jobs:
     vmImage: 'Ubuntu 16.04'
   condition: and(variables['PRIVATE'], eq(variables['System.PullRequest.TargetBranch'], 'master'))
   steps:
-  - script: '>&2 echo "the branch is protected"'
+  - script: '>&2 env && echo "the branch is protected. PRIVATE: $PRIVATE, TargetBranch: $SYSTEM_PULLREQUEST_TARGETBRANCH" '
     failOnStderr: true
 
 - job: "Syntax"
