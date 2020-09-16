@@ -59,7 +59,6 @@
           "mainRepository": "Azure/azure-sdk-for-java-pr"
         },
         "azure-sdk-for-js": {
-          "integrationRepository": "azure-sdk/azure-sdk-for-js-pr",
           "mainRepository": "NullMDR/azure-sdk-for-js"
         },
         "azure-sdk-for-net": {
