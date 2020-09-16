@@ -48,7 +48,7 @@
     }
   },
   "overrides": {
-    "Azure/azure-rest-api-specs-pr": {
+    "NullMDR/azure-rest-api-specs": {
       "sdkRepositoryMappings": {
         "azure-sdk-for-go": {
           "integrationRepository": "azure-sdk/azure-sdk-for-go-pr",
@@ -60,7 +60,7 @@
         },
         "azure-sdk-for-js": {
           "integrationRepository": "azure-sdk/azure-sdk-for-js-pr",
-          "mainRepository": "Azure/azure-sdk-for-js-pr"
+          "mainRepository": "NullMDR/azure-sdk-for-js"
         },
         "azure-sdk-for-net": {
           "integrationRepository": "azure-sdk/azure-sdk-for-net-pr",
